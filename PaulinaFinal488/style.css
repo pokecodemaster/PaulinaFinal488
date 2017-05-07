@@ -1,0 +1,342 @@
+body {
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: "Gotham";
+	font-size: 60px;
+	color: white;
+	text-shadow: 4px 4px black;
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+/*banner*/
+.banner {
+	max-width: 1000px;
+	position: relative; 
+	margin-left: 420px;
+}
+
+.text {
+	color:  #4d1a00;
+	font-family: "Impact";
+	font-size: 20px;
+	margin-left: 670px;
+	text-shadow: 1px 1px white;
+	padding-left: 5px;
+	padding-right: 0px;
+}
+
+.reviews {
+	display: none;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity:.4}
+	to {opacity:1}
+}
+
+@keyframes fade {
+	from{opacity: .4}
+	to {opacity:1}
+}
+.dot {
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	background-color: white;
+	width: 13px;
+}
+
+.active {
+	background-color: pink;
+}
+
+
+.looking {
+	font-family: "Helvetica";
+	font-size: 18px;
+	color: white;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.note {
+	font-family: "Helvetica";
+	font-size: 15px;
+	color: white;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+
+nav {
+   border: none;
+    cursor: pointer;
+	float: left;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom:2px;
+	margin-top: 0px;
+	margin-left: 0px;
+	color: #4d1a00;
+	background-color: white;
+	opacity: 0.8;
+	font-size:12px;
+}
+ 
+nav ul {
+    margin: 0px;
+    padding: 0px;
+
+  }
+ 
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+       
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; 
+}
+       
+nav > ul > li > a > .caret,
+nav > ul > li > div ul > li > a > .caret {
+    border-top: 4px solid #aaa;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+    display: inline-block;
+    height: 0;
+    width: 0;
+    vertical-align: middle;
+   
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -o-transition: color 0.1s linear;
+    transition: color 0.1s linear; 
+}
+       
+nav > ul > li > div ul > li > a > .caret {
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+	border-left: 4px solid #f2f2f2;
+  
+}
+ 
+nav > ul > li > a {
+    color: #4d1a00;
+    display: block;
+    line-height: 56px;
+    padding: 0 24px;
+    text-decoration: none;
+}
+ 
+nav > ul > li:hover {
+    background-color: #ffffcc;
+}
+ 
+nav > ul > li:hover > a {
+    color:  #4d1a00;;
+}
+ 
+nav > ul > li:hover > a > .caret {
+    border-top-color: rgb( 255, 255, 255 );
+}
+         
+nav > ul > li > div ul > li:hover > a > .caret {
+    border-left-color: #ffffcc;
+}
+       
+nav > ul > li > div,
+nav > ul > li > div ul > li > div {
+    background-color: rgb( 40, 44, 47 );
+    border-top: 0;
+    
+    display: none;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    width: 165px;
+    visibility: hidden;
+   
+    -webkit-transiton: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -transition: opacity 0.2s;
+}
+       
+nav > ul > li > div ul > li > div {
+
+    margin-top: -42px;
+    right: -165px;
+}
+ 
+nav > ul > li:hover > div,
+nav > ul > li > div ul > li:hover > div {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+	background-color: #ffffcc;
+}
+ 
+nav > ul > li > div ul > li,
+nav > ul > li > div ul > li > div ul > li {
+    display: block;
+    position: relative;
+}
+ 
+nav > ul > li > div ul > li > a,
+nav > ul > li > div ul > li > div ul > li > a {
+    color:  #4d1a00;
+    display: block;
+    padding: 12px 24px;
+	text-decoration: none;
+}
+ 
+nav > ul > li > div ul > li:hover > a {
+    background-color: #ffc2b3;
+}
+
+
+.wrap1 {
+	background-color: white; 
+	position: absolute;
+	width: 545px;
+	height: auto;
+	margin-left: 120px;
+	margin-top: 65px;
+	opacity: 0.8;
+	padding-bottom: 20px;
+}
+
+.wrap2 {
+	background-color: white ; 
+	position: absolute;
+	width: 770px;
+	height: auto;
+	margin-left: 120px;
+	margin-top: 105px;
+	opacity: 0.8;
+}
+
+p {
+	color: #4d1a00;
+	font-family: "Gotham";
+	font-size:18px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+
+.paragraph {
+	color: #4d1a00;
+	font-family: "Gotham";
+	font-size:25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+
+.link {
+	margin-left: 25px;
+	font-family: "Gotham";
+	font-size: 18px;
+}
+
+h2 {
+	margin-left: 189px;
+	font-family: "Impact";
+	color:  #4d1a00;
+	font-size: 28px;
+}
+
+.myform{
+	padding-top:28px;
+	padding-right: 85px;
+	padding-bottom: 30px;
+	margin-left: 90px;
+}
+
+input[type=text] {
+	width: 100%;
+	display: inline-block;
+	font-family: "Gotham";
+	font-size: 17px;
+	color: #4d1a00;
+	
+}
+
+textarea {
+	font-family: "Gotham";
+	font-size: 17px;
+	color: #4d1a00;
+}
+
+input[type=submit] {
+	width:30%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+	background-color: #4d1a00;
+	color: white;
+	font-family: "Gotham";
+	font-size: 18px;
+}
+
+input[type=submit]:hover{
+	background-color: white;
+	color: #4d1a00;
+}
+
+input[type=submit, reset]{
+	display: inline-block;
+}
+
+input[type=reset] {
+	width:30%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: right;
+	background-color: #4d1a00;
+	color: white;
+	font-family: "Gotham";
+	font-size: 18px;
+}
+
+input[type=reset]:hover{
+	background-color: white;
+	color: #4d1a00;
+}
+
+footer {
+	font-family: "Gotham";
+	font-size: 18px;
+	color: white;
+	text-shadow: 2px 2px black;
+	margin-top: 850px;
+	text-align: center;
+}
+
+.footer {
+	font-family: "Gotham";
+	font-size: 18px;
+	color: white;
+	text-shadow: 1px 1px black;
+	margin-top: 730px;
+	text-align: center;
+}
