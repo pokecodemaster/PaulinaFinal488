@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>InstaFicient-Life has never been so easy.</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="wrap1">
+<a href="index.html">
+<header>InstaFicient</header><br>
+</a>
+
+<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="findhelp.html">Find Help</a></li>
+			<li><a href="helpwanted.html">Help Wanted</a></li>
+		</ul>
+	</nav>
+	<br>
+	<br>
+
+<h2>Sign up!</h2>	
+
+<div class="myform">
+<form name = "signupForm"  method="post" enctype="text/plain">
+<fieldset>
+	<legend>Personal Information</legend>
+	<label for="name">Name</label><br>
+	<input type="text" name="name" id="name" placeholder="Enter your name"/><br><br>
+	
+	<label for="last_name">Last Name</label><br>
+	<input type="text" name="last_name" id="last_name" placeholder="Enter your last name"/><br><br>
+
+	<label for="email">Email</label><br>
+	<input type="text" name="email" id="email" placeholder="example@domain.com"/><br><br>
+
+	<label for="user_password">Password</label><br>
+	<input type="text" name="user_password" id="user_password" placeholder="Create a password"/><br><br>
+
+	<label for="confirm_password">Confirm Password</label><br>
+	<input type="text" name="confirm_password" id="confirm_password" placeholder="Confirm password"/><br><br>
+</fieldset>
+	
+<fieldset>
+	<legend>Credit Card Information</legend>
+	<label for="fname_card">Full Name</label>
+	<input type="text" name="fname_card" id="fname_card" placeholder="Enter the name on card"/><br><br>
+	<label for="creditcard">Credit Card Number</label><br>
+	<input type="text" name="creditcard" id="creditcard" placeholder="Enter your credit card number"/><br><br>
+
+	<label for="type_card">Type of Card</legend>
+	<select name="type_card" id="type_card">
+	<option value="Select">Select</option>
+	<option value="MasterCard">MasterCard</option>
+	<option value="Visa">Visa</option>
+	<option value="Discover">Discover</option>
+	<option value="American Express">American Express</option>
+	</select><br><br>
+	
+	<label for="exp_date">Expiration Date</label><br>
+	<select name="exp_month" id="exp_month">
+	<option value="Select">Select</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	</select>
+	<select name="exp_year" id="exp_year">
+	<option value="Select">Select</option>
+	<option value="2016">2016</option>
+	<option value="2017">2017</option>
+	<option value="2018">2018</option>
+	<option value="2019">2019</option>
+	</select><br><br>
+	
+	<label for="cvv">Card Verification Value</label>
+	<input type="cvv" name="cvv" id="cvv" placeholder="Three digits on back of card"/><br><br><br>
+	
+<input type="submit" id="submit" value="SIGN UP" onclick="signup()"/><br><br>
+<input  id="button" type="button" value="RESET" onclick="reset()"/>
+</fieldset>
+</form>
+
+<br><br>
+
+ <div class="backtotop">
+ <a href="#top">Back to top of page</a>
+ </div>
+ 
+</div>
+</div>
+<br>
+<br>
+<br>
+
+
+<footer>
+<p>Copyright &copy; 2015-2016 InstaFicient All Rights Reserved</p>
+<div class="validator">
+<a href="reference.html" target="_blank">References</a><br>
+<a href="" target="_blank">Validator</a>
+</div>
+<br>
+<div class="socialimage">
+	<img src="socialmedia.png" alt="social media">
+</div>
+	<div class="img">
+	<img src="crediticons.png" alt="credit card">
+	</div>
+</footer>
+
+
+
+<script src="finalproject.js"></script>
+
+</body>
+</html>
+

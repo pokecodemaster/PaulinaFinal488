@@ -243,6 +243,25 @@ p {
 	padding-bottom: 25px;
 }
 
+.name {
+	font-family: "Impact";
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	-webkit-transform: rotate(-0eg);
+	-moz-transform: rotate(-0deg);   
+	-o-transform: rotate(-0deg);
+	text-shadow: 0 0 10px black,
+	0 0 20px purple,
+	0 0 30px purple,
+	0 0 40px white,
+	0 0 70px white,
+	0 0 80px white,
+	0 0 100px white,
+	0 0 150px #ff00de;
+	-webkit-filter: saturate(7); filter: saturate(7);
+}
+
 .paragraph {
 	color: #4d1a00;
 	font-family: "Gotham";

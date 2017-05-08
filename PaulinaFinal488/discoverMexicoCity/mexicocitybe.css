@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+<style>
+body
+{
+	background:none;
+}
+#wrapper
+{
+width:73%;
+margin-left:auto;
+margin-right:auto;
+border-style:solid;
+padding:10px;
+background-color:#FFC;
+}
+#header
+{
+	background-color: #004A00;
+	color: red;
+	text-align: center;
+	font-family: Elephant;
+	font-size: 300%;
+}
+ul
+{
+	list-style-type:none;
+}
+li
+{
+	display:inline;
+	margin-right:25px;
+}
+#nav
+{
+text-align:center;
+border-width:5px;
+}
+h2
+{
+	text-align: center;
+	color:#C90;
+	font-family:"Arial Black", Gadget, sans-serif;
+	text-decoration:underline;
+}
+p
+{
+	color:#063;
+	font-family:"Comic Sans MS", cursive;
+	font-size:15px;
+}
+.icon
+{
+	float:right;
+}
+.pictures
+{
+	border-color:#C90;
+	float:right;
+}
+.pictures2
+{
+	border-color:#FFF;
+	box-shadow: 20px 20px 10px #C90;
+}
+table
+{
+	font-family: "Comic Sans MS", cursive;
+	font-size: 15px;
+	color: #063;
+	font-stretch: condensed;
+	text-align: center;
+	clear:both;
+}
+.pictures3
+{
+	border-color:#C90;
+}
+h3
+{
+color:red;
+}
+.sign
+{
+	float:left;
+	color:red;
+	font-size:20px;
+}
+#footer
+{
+text-align:center;
+font-size:100%;
+background-color:#004A00;
+color:#FFF;
+}
+#footer a
+{
+	color:#FFF;
+}
+body {
+	background-image: url(file:///E|/Charlie/GEDC0013.JPG);
+}
+a {
+	font-family: "Comic Sans MS", cursive;
+	color: #030;
+}
+a:visited {
+	color: #F00;
+}
+a:hover {
+	color: #030;
+}
+a:active {
+	color: #660;
+}
+
+
+

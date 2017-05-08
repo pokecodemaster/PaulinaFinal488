@@ -1,0 +1,272 @@
+body {
+	background-image: url(backgroundimage.jpg);
+}
+
+h2{
+	font-family: "Helvetica";
+	color: orange;
+	font-size: 25px;
+	margin-left: 400px;
+}
+
+/*banner*/
+.banner {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.text {
+	color: white;
+	font-family: "Helvetica";
+	font-size: 25px;
+	text-align:center;
+}
+
+.reviews {
+	display: none;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity:.4}
+	to {opacity:1}
+}
+
+@keyframes fade {
+	from{opacity: .4}
+	to {opacity:1}
+}
+
+.dot {
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	background-color: white;
+	width: 13px;
+}
+
+.active {
+	background-color: pink;
+}
+
+
+.looking {
+	font-family: "Helvetica";
+	font-size: 18px;
+	color: white;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.note {
+	font-family: "Helvetica";
+	font-size: 15px;
+	color: white;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+
+header {
+	font-family: "Courier";
+	color: white;
+	font-size: 55px;
+	margin-left: 255px;
+	padding-bottom: 20px;
+	display: inline-block;
+	
+}
+
+.wrap1 {
+	background-color: #646262 ; 
+	width: 870px;
+	height: auto;
+	margin-left: 350px;
+	margin-top: 60px;
+	padding-top: 3px;
+	padding-bottom: 70px;
+	padding-left: 15px;
+	padding-right: 15px;
+	opacity: 0.8;
+}
+
+
+.socialimage {
+	margin-left: 400px;
+}
+
+p {
+	font-family: "Helvetica";
+	margin-left: 320px;
+	font-size: 13px;
+	color: black;
+}
+
+ul {
+	font-size: 20px;
+    border: none;
+    cursor: pointer;
+	margin-left:35px;
+	font-family: "Courier";
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+li {
+	margin-left: 98px;
+	display: inline;
+	border-right: 1px solid black;
+}
+
+li:last-of-type {
+	border-right: none;
+}
+
+li a {
+	display: inline-block;
+	color: black;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color:orange;
+}
+
+.signup a{
+	margin-left: 430px;
+	font-family:"Courier";
+	color: orange;
+	font-size: 25px;
+	
+	
+}
+
+.video {
+	margin-left: 250px;
+}
+
+.backtotop {
+	font-family:"Helvetica";
+	color: white;
+	font-size: 18px;
+}
+
+table {
+	font-family: "Helvetica";
+	border-collapse: collapse;
+	width:80%;
+	margin-left: 100px;
+}
+
+th {
+	border: 1px solid orange;
+	padding: 5px;
+	color: orange;
+}
+
+td {
+	border: 1px solid #dddddd;
+	padding: 10px;
+	color: white;
+}
+
+.myform{
+	margin-left: 218px;
+	padding-top:30px;
+	padding-bottom: 30px;
+	border: 1px, solid #ccc;
+	box-sizing: border-box;
+	font-family: "helvetica";
+	color:orange;
+
+}
+
+.searchform {
+	margin-left: 218px;
+	padding-top:30px;
+	padding-bottom: 30px;
+	border: 1px, solid #ccc;
+	box-sizing: border-box;
+	font-family: "helvetica";
+	color:orange;
+}
+
+.loginform {
+	margin-left: 150px;
+	padding-top:30px;
+	padding-bottom: 30px;
+	border: 1px, solid #ccc;
+	box-sizing: border-box;
+	font-family: "helvetica";
+	color:orange;
+}
+
+.button {
+	padding: 14px 75px;'
+	font-weight: bold;
+	font-size: 100%;
+	text-transform: uppercase;
+}
+
+button {
+	padding: 14px 75px;
+	color: #4c4d4c ;
+	font-weight: bold;
+	font-size: 100%;
+	text-transform: uppercase;
+	background-color: white;
+	margin-left: 100px;
+}
+
+fieldset {
+	width: 430px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	display: inline-block;
+}
+
+label {
+	margin-left: 100px;
+
+}
+
+input  {
+	width: 50%;
+	padding: 8px;
+	margin-left: 100px;
+	
+}
+
+select {
+	margin-left: 100px;
+}
+
+footer {
+	margin-left: 330px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.validator {
+	margin-left:450px;
+}
+
+.img{
+	margin-left: 340px;
+}
+
+.reference {
+	margin-left: 50px;
+	font-family: "Helvetica";
+	font-size: 18px;
+	color: white;
+	padding-left: 70px;
+	padding-right: 70px;
+}

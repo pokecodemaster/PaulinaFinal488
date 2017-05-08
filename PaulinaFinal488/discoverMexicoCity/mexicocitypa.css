@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+<style>
+body
+{
+	background:none;
+}
+#wrapper
+{
+width:73%;
+margin-left:auto;
+margin-right:auto;
+border-style:solid;
+padding:10px;
+background-color:#FFC;
+}
+#header
+{
+	background-color: #004A00;
+	color: red;
+	text-align: center;
+	font-family: Elephant;
+	font-size: 300%;
+}
+ul
+{
+	list-style-type:none;
+}
+table
+{
+	font-family: "Comic Sans MS", cursive;
+	font-size: 15px;
+	color: #063;
+	font-stretch: condensed;
+	text-align: center;
+	clear:both;
+}
+li
+{
+	display:inline;
+	margin-right:25px;
+}
+.pictures
+{
+	border-color:#C90;
+	float:left;
+	box-shadow:10px 10px 5px #C90;
+}
+.picture
+{
+	border-color:#C90;
+}
+#nav
+{
+text-align:center;
+border-width:5px;
+}
+.icon
+{
+	float:right;
+}
+h2
+{
+	text-align: center;
+	color:#C90;
+	font-family:"Arial Black", Gadget, sans-serif;
+	text-decoration:underline;
+}
+#content
+{
+	color:#063;
+	font-family:"Comic Sans MS", cursive;
+	font-size:15px;
+}
+#footer
+{
+text-align:center;
+font-size:100%;
+background-color:#004A00;
+color:#FFF;
+}
+.pictures
+{
+	border-color:#fff;
+	clear:both;
+}
+#footer a
+{
+	color:#FFF;
+}
+a {
+	font-family: "Comic Sans MS", cursive;
+	color: #030;
+}
+a:visited {
+	color: #F00;
+}
+a:hover {
+	color: #030;
+}
+a:active {
+	color: #660;
+}
+.sign
+{
+	float:left;
+	color:red;
+	font-size:20px;
+}
+p
+{
+	color:#063;
+	font-family:"Comic Sans MS", cursive;
+	font-size:15px;
+}
+body {
+	background-image: url(file:///E|/mexicocity/GEDC0047.JPG);
+}
+#wrapper div img {
+	color: #FFF;
+}
+#wrapper div img {
+	color: #F00;
+}
+#wrapper div img {
+	color: #8080C0;
+}
+#wrapper div img {
+	color: #6A6A6A;
+}
+#wrapper div img {
+	color: #F00;
+}
+#wrapper div img {
+	color: #000;
+}
+#wrapper div img {
+	color: #FFF;
+}
+#wrapper img {
+	color: #FFF;
+}
+#wrapper img {
+	color: #FFF;
+}
+
+
