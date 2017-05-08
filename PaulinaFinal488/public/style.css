@@ -234,6 +234,18 @@ nav > ul > li > div ul > li:hover > a {
 	opacity: 0.8;
 }
 
+.wrap3 {
+	background-color: white; 
+	position: absolute;
+	width: 545px;
+	height: auto;
+	margin-left: 720px;
+	margin-top: 265px;
+	opacity: 0.8;
+	padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 p {
 	color: #4d1a00;
 	font-family: "Gotham";
