@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+<style>
+{}
+
+body {
+	background-image: url("backgroundimage.png");
+	height: auto;
+}
+
+#header   {
+	float: right;
+
+}
+
+h1 {
+	font-family: "Broadway";
+	text-align: center;
+	font-size: 80px;
+	color: white;
+	-webkit-transform: rotate(-9eg);
+	-moz-transform: rotate(-9deg);   
+	-o-transform: rotate(-9deg);
+	text-shadow: 0 0 10px black,
+	0 0 20px #fff,
+	0 0 30px #fff,
+	0 0 40px orange,
+	0 0 70px orange,
+	0 0 80px orange,
+	0 0 100px orange,
+	0 0 150px #ff00de;
+	-webkit-filter: saturate(7); filter: saturate(7);
+}
+
+h2 {
+	font-family: "Broadway";
+	text-align: center;
+	font-size: 30px;
+	color:  white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-shadow: 2px 2px black;
+
+}
+
+#content  {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 320px;
+	font-family: "Helvetica";
+	font-size: 22px;
+	color: black ;
+	text-shadow: 1px 1px white;
+	border-left: 1px solid gray;
+	height: auto;
+}
+
+
+#wrapper   {
+	width: 95%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 30px;
+	box-shadow: 5px 5px black;
+	border: 5px;
+	clear: both;
+
+}
+
+#grad1 {
+	height: 1000px;
+    background: -webkit-linear-gradient( #d98880,#f7dc6f,#7dcea0  , #7fb3d5 );
+    background: -o-linear-gradient( #d98880 ,#f7dc6f,   #7dcea0  ,  #7fb3d5  );
+    background: -moz-linear-gradient( #d98880 ,#f7dc6f,   #7dcea0  ,  #7fb3d5 ); 
+    background: linear-gradient( #d98880 ,#f7dc6f,   #7dcea0  ,   #7fb3d5  ); 
+}
+
+table, th, td {
+	color: black ;
+	text-shadow: 1px 1px white;
+	font-stretch: condensed;
+	text-align: center;
+	border: 3px solid white;
+	margin-left: 220px;
+}
+
+#nav li {
+	display: center;
+	padding-top: 20px;
+	margin-top: 50px;
+	font-family: "Helvetica";
+	font-size: 19px;
+}
+
+#nav ul {
+	font-family: "Helvetica";
+	float: left;
+	list-style-type: none;
+}
+
+#nav a:link {
+	color: white;
+	text-decoration: none;
+	font-family: "Helvetica";
+	text-align:center;
+	padding-bottom: 15px;
+	background-color:  #e59866;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 12px;
+	border-radius: 15px; 
+	text-shadow: 2px 2px black;
+}
+
+#nav a:visited {
+	color: yellow;
+	text-decoration: none;
+	font-family: "Helvetica";
+	text-decoration: none;
+	text-align:center;
+	padding-bottom: 15px;
+	border-radius: 50%;
+}
+
+#nav a:hover {
+	text-decoration: underline;
+	color: blue;
+	font-family: "Helvetica";
+	text-align:center;
+	padding-bottom: 15px;
+	text-shadow: 2px 2px white;
+}
+
+div.classroom {
+	margin-left: 308px;
+}
+
+#table {
+	margin-right: 3px;
+}
+
+#tableav {
+	margin-left: 180px;
+}
+
+#image {
+	display: inline-block;
+	padding-left: 15px;
+	margin-left: 150px;
+}
+
+#imageav {
+	display:inline-block;
+	margin-left: 250px;
+
+}
+
+#projectorphoto {
+	display: inline-block;
+	margin-left: 200px;
+}
+
+#videophoto {
+	margin-left: 275px;
+}
+
+div.image {
+	margin-left: 40px;
+}
+
+#grad2 {
+	height: 120px;
+    background: -webkit-linear-gradient( #d98880,#f7dc6f,#7dcea0  , #7fb3d5 );
+    background: -o-linear-gradient( #d98880 ,#f7dc6f,   #7dcea0  ,  #7fb3d5  );
+    background: -moz-linear-gradient( #d98880 ,#f7dc6f,   #7dcea0  ,  #7fb3d5 ); 
+    background: linear-gradient( #d98880 ,#f7dc6f,   #7dcea0  ,   #7fb3d5  ); 
+}
+
+#footer {
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: .90em;
+	font-style: italic;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 5px 5px black;
+	border: 5px;
+	padding-top: 20px;
+
+}
+
+#footer a:unvisited {
+	color: black ;
+}
+
+#footer a:visited {
+	color: #71089c;
+}
+
+#footer a:hover {
+	color: #cb4335;
+}
+</style>
+</head>

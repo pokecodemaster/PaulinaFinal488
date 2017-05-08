@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Discover Mexico City!</title>
+<link type="type/css" href= rel="stylesheet"/>
+</head>
+<body>
+<div id="wrapper">
+<h1><i>Discover Mexico City!<i></h1>
+<div id="nav">
+<a href="index.html">Home</a>
+<a href="zocalo.html">Zócalo</a>
+<a href="bellasartes.html">Palacio de Bellas Artes</a>
+<a href="torrelatino.html">Torre Latinoamericana</a>
+<a href="paseo.html">Paseo de la Reforma</a>
+</div>
+<br>
+<img src="http://i1282.photobucket.com/albums/a522/enia78521/GEDC0012_zps59dd51bc.jpg" border="0" alt="Photobucket" class="align-center medium"/>
+<p>Welcome to Discover Mexico City! Here you will find all the turist information you need for that exciting trip you desire to be part of.
+Discover Mexico City! shows you the best five places Mexico City offers. Don't miss out on a great experience!</p>
+<h3>Mexico City Awaits You!</h3>
+<p>Mexico City, also known as Ciudad de Mexico, is the capital of Mexico. The city is full of glamour, cultural heritage and contemporary development.
+The city was originally built on the Lake of Texcoco by the Aztecs in 1325, and gave the name of Tenochtitlan. The Spanish took over the city in 1521 making what is known as the Conquest of Mexico.
+The Aztecs discovered the city and gave it their culture and heritage while the Spanish conquered it to reinvent the Latino city.</p>
+<p>Here are the five best places <i>Discover Mexico City!<i> doesn't want you to miss out on.</p>
+<ul>
+<li>Palacio de Bellas Artes</li>
+<li>Pirámides de Teotihuacán</li>
+<li>Coyoacán</li>
+<li>Zócalo</li>
+<li>Paseo de la Reforma</li>
+</ul>
+<div id="footer">
+Discover Mexico City! © Copyright 2012 Mexico City<br>
+<a href="mailto:arodr168@montgomerycollege.edu">arodr168@montogmerycollege.edu</a>
+</div>
+</div>
+</body>
+</html>
